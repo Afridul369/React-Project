@@ -95,7 +95,7 @@ function App() {
       <div className="pt-[230px] pb-[170px] ">
         <div className="max-w-maxcontainer m-auto">
           <h2 className="flex justify-center text-[64px] font-bold font-frank pb-[125px]">
-            {" "}
+           
             New Collection
           </h2>
           <Flex className={"justify-between"}>
@@ -156,15 +156,16 @@ function App() {
                   <div className=" ">
                     <h1 className="text-[64px] font-bold font-kova">2010</h1>
                     <p className="text-[28px] font-medium font-pop ">Founded</p>
-                    {/* <div className="after:content-[''] absolute after:h-[20px] w-[5px] bg-red-500  top-0 right-[100px]"></div> */}
                   </div>
+                  <div className="h-[150px] bg bg-black w-[3px]"></div>
                   <div className="">
-                    <h1 className="text-[64px] font-bold font-kova">2010</h1>
-                    <p className="text-[28px] font-medium font-pop">Founded</p>
+                    <h1 className="text-[64px] font-bold font-kova">5000+</h1>
+                    <p className="text-[28px] font-medium font-pop">Product Sold</p>
                   </div>
+                  <div className="h-[150px] bg bg-black w-[3px]"></div>
                   <div className="">
-                    <h1 className="text-[64px] font-bold font-kova">2010</h1>
-                    <p className="text-[28px] font-medium font-pop">Founded</p>
+                    <h1 className="text-[64px] font-bold font-kova">4500+</h1>
+                    <p className="text-[28px] font-medium font-pop">Best Reviews</p>
                   </div>
                 </Flex>
               </div>
